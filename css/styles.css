@@ -541,6 +541,11 @@ footer .logo {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 /*---------------portfolio.work-type--------------------------*/
 
 .work-type {
