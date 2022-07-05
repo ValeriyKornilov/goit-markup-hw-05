@@ -519,6 +519,16 @@ footer .logo {
   margin-right: 10px;
 }
 
+/*----------------modal---------------------------------*/
+.backdrop {
+  position: fixed;
+  width: 1600px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 /*---------------portfolio.work-type--------------------------*/
 
 .work-type {
