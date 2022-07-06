@@ -17,10 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-* {
-  outline: 0;
-}
-
 .list {
   list-style: none;
   padding-left: 0;
@@ -509,6 +505,7 @@ footer .logo {
 }
 .footer-button:focus {
   background-color: var(--accent-color);
+  outline: var(--accent-color);
 }
 
 .footer-icon {
